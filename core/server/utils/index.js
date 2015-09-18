@@ -50,6 +50,8 @@ utils = {
 
         return buf.join('');
     },
+    
+    // What it is doing in fact? Shame on me, I don't know!
     safeString: function (string) {
         // Handle the £ symbol seperately, since it needs to be removed before
         // the unicode conversion.
